@@ -1,5 +1,5 @@
 {
-  "name": "discourse-geometric-theme",
+  "name": "SteeveHook",
   "about_url": "https://meta.discourse.org/t/geometric-a-dark-theme-for-discourse/179927",
   "license_url": "https://github.com/MeghnaAJ/discourse-geometric-theme/blob/master/LICENSE",
   "author": "Meghna",
@@ -8,15 +8,15 @@
   },
   "color_schemes": {
     "geometric": {
-      "primary": "ffffff",
-      "secondary": "3F3F3F",
-      "tertiary": "ffffff",
-      "quaternary": "575151",
+      "primary": "B71BB7",
+      "secondary": "8E158E",
+      "tertiary": "350835",
+      "quaternary": "#575155",
       "header_background": "262833",
       "header_primary": "262833",
-      "highlight": "000000",
-      "danger": "da723c",
-      "love": "91091e"
+      "highlight": "FFFFFF",
+      "danger": "da3c7e",
+      "love": "c9001f"
     }
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
