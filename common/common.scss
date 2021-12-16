@@ -28,12 +28,12 @@ body {
 
 .menu-panel {
   border-radius: $radius-6;
-  background-color: $color-grey;
+  background-color: $color-black;
   .panel-body-bottom .btn:hover {
-    background: $color-red;
+    background: $color-primary;
   }
   li a.widget-link .d-icon, .menu-panel li a.categories-link .d-icon {
-    color: $color-red;
+    color: $color-primary;
   }
 }
 
@@ -41,13 +41,13 @@ body {
 // *------------------------------------------------*
 #create-topic {
   color: $color-white;
-  background-color: $color-red;
+  background-color: $color-primary;
   border-radius: $radius-2;
   .fa {
     color: $color-white;
   }
   &:hover {
-    background: $color-red;
+    background: $color-primary;
     color: $color-white;
     border-radius: $radius-2;
     box-shadow: 0 1px 8px $color-red;
@@ -73,7 +73,7 @@ body {
     &:hover, 
     &.btn-hover {
       color: $color-white;
-      background: $color-red;
+      background: $color-primary;
       .d-icon {
         color: $color-white;
       }
@@ -82,15 +82,15 @@ body {
   &:hover, 
   &.btn-hover {
     color: $color-white;
-    background: $color-red;
+    background: $color-primary;
     .d-icon {
-      color: $color-red;
+      color: $color-primary;
     }
   }
   &:active, 
   &.btn-active {
     background-image: none;
-    background-color: $color-red;
+    background-color: $color-primary;
     color: $color-white;
     .d-icon {
       color: $color-white;
@@ -114,9 +114,9 @@ body {
     &:hover, 
     &.btn-hover {
       background-color: $danger-hover;
-      color: $color-cream;
+      color: $color-secondary;
       .d-icon {
-        color: $color-cream;
+        color: $color-secondary;
       }
     }
   }
@@ -151,10 +151,9 @@ ul.nav-pills {
 // *------------------------------------------------*
 .timeline-container .topic-timeline { 
   .timeline-scrollarea {
-    border-color: $color-cream;
+    border-color: $color-secondary;
   }
   .timeline-handle {
-    background-color: $color-cream;
   }
 }
 
@@ -181,21 +180,21 @@ ul.nav-pills {
 .admin-controls {
   .nav-pills>li a.active {
     background: none;
-    color: $color-red;
+    color: $color-primary;
   }
 }
 
 // Other
 // *------------------------------------------------*
 a, .fps-result a.search-link:visited .topic-title {
-  color: $color-yellow;
+  color: $color-primary;
   &:hover {
-  color: $color-yellow;
+  color: $color-primary;
   }
 }
 
 a:visited {
-  color: $color-yellow;
+  color: $color-primary;
 }
 
 .open .grippie {
