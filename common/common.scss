@@ -22,7 +22,7 @@ body {
 // Header
 // *------------------------------------------------*
 .d-header {
-  background-image: $color-primary;
+  background-image: $primary;
   height: 5em;
 }
 
@@ -30,10 +30,10 @@ body {
   border-radius: $radius-6;
   background-color: $color-black;
   .panel-body-bottom .btn:hover {
-    background: $color-primary;
+    background: $primary;
   }
   li a.widget-link .d-icon, .menu-panel li a.categories-link .d-icon {
-    color: $color-primary;
+    color: $primary;
   }
 }
 
@@ -41,16 +41,16 @@ body {
 // *------------------------------------------------*
 #create-topic {
   color: $color-white;
-  background-color: $color-primary;
+  background-color: $primary;
   border-radius: $radius-2;
   .fa {
     color: $color-white;
   }
   &:hover {
-    background: $color-primary;
+    background: $primary;
     color: $color-white;
     border-radius: $radius-2;
-    box-shadow: 0 1px 8px $color-red;
+    box-shadow: 0 1px 8px $primary;
     .fa {
       color: $color-white;
     }
@@ -82,15 +82,15 @@ body {
   &:hover, 
   &.btn-hover {
     color: $color-white;
-    background: $color-primary;
+    background: $primary-low;
     .d-icon {
-      color: $color-primary;
+      color: $primary-low;
     }
   }
   &:active, 
   &.btn-active {
     background-image: none;
-    background-color: $color-primary;
+    background-color: $primary;
     color: $color-white;
     .d-icon {
       color: $color-white;
@@ -114,9 +114,9 @@ body {
     &:hover, 
     &.btn-hover {
       background-color: $danger-hover;
-      color: $color-secondary;
+      color: $secondary;
       .d-icon {
-        color: $color-secondary;
+        color: $secondary;
       }
     }
   }
@@ -151,7 +151,7 @@ ul.nav-pills {
 // *------------------------------------------------*
 .timeline-container .topic-timeline { 
   .timeline-scrollarea {
-    border-color: $color-secondary;
+    border-color: $secondary;
   }
   .timeline-handle {
   }
@@ -171,7 +171,7 @@ ul.nav-pills {
 // *------------------------------------------------*
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
-    background: $color-primary;
+    background: $primary;
   }
 }
 
@@ -180,23 +180,23 @@ ul.nav-pills {
 .admin-controls {
   .nav-pills>li a.active {
     background: none;
-    color: $color-primary;
+    color: $primary;
   }
 }
 
 // Other
 // *------------------------------------------------*
 a, .fps-result a.search-link:visited .topic-title {
-  color: $color-primary;
+  color: $primary;
   &:hover {
-  color: $color-primary;
+  color: $primary;
   }
 }
 
 a:visited {
-  color: $color-primary;
+  color: $primary;
 }
 
 .open .grippie {
-  background: $color-primary;
+  background: $primary;
 }
